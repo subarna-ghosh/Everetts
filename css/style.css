@@ -121,7 +121,7 @@ a {
 /* team section */
 .team-section {
   min-height: 737px;
-  padding-top: 100px;
+  padding-block: 100px;
 }
 
 .team-left {
@@ -293,6 +293,9 @@ a {
   .end-footer-para > p {
     font-size: 12px;
   }
+  .team-left {
+    margin-bottom: 31px;
+  }
 }
 @media screen and (max-width: 576px) {
   .navbar-brand > img {
@@ -338,7 +341,7 @@ a {
   }
   .team-section {
     min-height: 659px;
-    padding-top: 64px;
+    padding-block: 64px;
   }
   .third-first > p {
     font-size: 16px;
