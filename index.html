@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Everetts Bootstrap</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- nav section -->
+    <header class="header-section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/main-logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ's</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn new-button" type="submit">Contact</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- banner section -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="left-first">
+              <h1>Find Your Perfect <span>Loan</span></h1>
+              <p>
+                Integer lectus diam, ultrices mollis urna vel, euismod commodo
+                libero. Aenean quis erat in nisl finibus condimentum.
+              </p>
+              <a href="#" class="left-first-anch">Apply Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="right-first">
+              <p>
+                sign up for my weekly Mindset & <br />
+                Markets Newsletter?
+              </p>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputText4"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputPhone4"
+                    placeholder="Phone"
+                  />
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Email</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a comment here"
+                      id="floatingTextarea2"
+                      style="height: 100px"
+                    ></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary custom-btn">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team section -->
+    <section class="team-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="team-left">
+              <img src="./assets/second-pic.png" alt="group" />
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="team-right">
+              <h2>About Our <span>Team</span></h2>
+              <p>
+                Jimmy is a former Naval Submariner and a veteran of the Gulf
+                War, serving from 1996-2004 as well as three tours in the
+                Persian Gulf. Following his time in the Navy, he worked in
+                broadcast journalism for several years as a backpack reporter,
+                and all in one...
+              </p>
+              <a href="" class="right-second-anch">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- loan section -->
+    <section class="loan-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="third-top">
+              <h2>The Loan <span>Products </span></h2>
+              <p>
+                elementum dolor vehicula, tincidunt lectus. Nullam sed mi
+                molestie, elementum <br />
+                neque eget, accumsan ante. Duis sagittis neque id urna malesuada
+                mattis.
+              </p>
+            </div>
+          </div>
+
+          <div class="card-group">
+            <div class="card">
+              <div class="third-first">
+                <img src="./assets/card-one.png" alt="" />
+                <p>Nunc accumsan mi sed eros vestibulum,</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="third-first">
+                <img src="./assets/card-two.png" alt="" />
+                <p>Nunc accumsan mi sed eros vestibulum,</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="third-first">
+                <img src="./assets/card-three.png" alt="" />
+                <p>Nunc accumsan mi sed eros vestibulum,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex flex-column align-items-center">
+              <div class="end-div">
+                <img src="./assets/footer-logo.png" alt="" />
+              </div>
+              <div class="end-footer-para d-flex justify-content-between " style="gap: 10px">
+                <p>© 2025 Everetts Lending. All Rights Reserved</p>
+                <div class="line-div"></div>
+                <p>Privacy policy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+/* nav */
+.navbar-brand > img {
+  width: 208.49px;
+  height: 59px;
+  object-fit: contain;
+}
+
+.new-button {
+  background-color: #001f51 !important;
+  color: white !important;
+  padding: 18.5px 30.5px !important;
+  margin: 0 auto !important;
+}
+.nav-link:hover {
+  color: #940f14 !important;
+}
+.nav-link {
+  color: #001f51 !important;
+  font-size: 18px !important;
+  text-wrap: nowrap !important;
+}
+.navbar-nav {
+  gap: 35px !important;
+  text-align: center !important;
+}
+
+/* banner */
+.banner {
+  min-height: 590px;
+  background: url(../assets/Mask\ group.png) no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 57px 0;
+}
+.banner > div > div {
+  align-items: center;
+}
+.left-first > h1 {
+  color: #001f51;
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 35px;
+  line-height: 100px;
+}
+.left-first > h1 > span {
+  font-style: italic;
+  color: #d00000;
+  font-weight: 600;
+}
+.left-first > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #001f51;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+.left-first-anch {
+  padding: 18px 36px;
+  background-color: #d00000;
+  border-radius: 7px;
+  color: white;
+}
+.card-group > .card:not(:last-child) {
+  background: transparent;
+  border: none;
+}
+
+/* form banner */
+.right-first {
+  background-color: white;
+  padding: 34px 19px;
+  border-radius: 20px;
+}
+.right-first > p {
+  font-size: 24px;
+  color: #001f51;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.form-control {
+  display: block !important;
+}
+
+.custom-btn {
+  width: 100% !important;
+  padding-block: 18.5px !important;
+  background-color: #d00000 !important;
+}
+
+/* team section */
+.team-section {
+  min-height: 737px;
+  padding-top: 100px;
+}
+
+.team-left {
+  max-width: 568px;
+}
+.team-left > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.team-right {
+  max-width: 539px;
+}
+.team-right > h2 {
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 37px;
+  color: #001f51;
+}
+.team-right > h2 > span {
+  color: #d00000;
+  font-style: italic;
+  font-weight: 600;
+}
+.team-right > p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 37px;
+}
+.right-second-anch {
+  padding: 18px 36px;
+  font-size: 18px;
+  color: white;
+  background-color: #001f51;
+  border-radius: 7px;
+}
+
+/* loan section */
+.loan-section {
+  min-height: 840px;
+  background-color: #f3f3f3;
+  padding-top: 100px;
+}
+.third-top {
+  text-align: center;
+}
+
+.third-top > h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #001f51;
+  margin-bottom: 40px;
+}
+.third-top > h2 > span {
+  color: #d00000;
+  font-style: italic;
+  font-weight: 600;
+}
+.third-top > p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+.third-first {
+  max-width: 370px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px 15px;
+}
+.third-first > img {
+  width: 100%;
+  object-fit: contain;
+}
+.third-first > p {
+  font-size: 23px;
+  margin-block: 23px;
+  color: #001f51;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+.card-group > .card:not(:first-child) {
+  background: transparent;
+  border: transparent;
+}
+
+/* footer section */
+.footer-section {
+  min-height: 264px;
+  background: url(../assets/ship.png) center/cover no-repeat;
+  background-color: #001f51;
+  background-blend-mode: multiply;
+  padding: 55px 0 51px;
+}
+.end-div {
+  max-width: 312px;
+  margin-bottom: 60px;
+}
+.end-div > img {
+  /* height:inherit; */
+  width: 100%;
+  object-fit: contain;
+}
+
+.end-footer-para > p {
+  color: white;
+}
+.line-div {
+  width: 2px;
+  height: 13px;
+  background-color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(100px);
+    padding: 15px 0;
+  }
+  .banner > div > div {
+    gap: 77px;
+  }
+  .left-first > h1 {
+    font-size: 74px;
+    margin-bottom: 19px;
+    line-height: 77px;
+  }
+  .left-first > p {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .left-first-anch {
+    padding: 14px 30px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .custom-btn {
+    padding-block: 12.5px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-right > p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+  .team-right > h2 {
+    font-size: 46px;
+    margin-bottom: 22px;
+  }
+  .right-second-anch {
+    padding: 14px 30px;
+    font-size: 14px;
+  }
+  .end-div {
+    max-width: 170px;
+    margin-bottom: 45px;
+  }
+  .end-footer-para > p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar-brand > img {
+    width: 148.49px !important;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .new-button {
+    padding: 10px 20px !important;
+  }
+  .left-first > h1 {
+    font-size: 49px;
+    margin-bottom: 29px;
+    line-height: 59px;
+  }
+  .left-first > p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .left-first-anch {
+    padding: 11px 23px;
+    font-size: 12px;
+  }
+  .right-first > p {
+    font-size: 19px;
+    margin-bottom: 37px;
+  }
+  .custom-btn {
+    font-size: 13px !important;
+  }
+  .team-right > h2 {
+    font-size: 36px;
+  }
+  .team-right > p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .right-second-anch {
+    padding: 11px 23px;
+    font-size: 12px;
+  }
+  .team-section {
+    min-height: 659px;
+    padding-top: 64px;
+  }
+  .third-first > p {
+    font-size: 16px;
+    margin-block: 12px;
+  }
+  .loan-section {
+    padding-top: 34px;
+  }
+  .third-top > p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 28px;
+  }
+  .third-top > h2 {
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 26px;
+  }
+}
