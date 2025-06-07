@@ -55,9 +55,6 @@ a {
 .banner {
   min-height: 590px;
   background: url(../assets/Mask\ group.png) no-repeat center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 57px 0;
 }
 .banner > div > div {
@@ -306,7 +303,7 @@ a {
   }
 }
 @media screen and (max-width: 576px) {
-  .navbar-collapse{
+  .navbar-collapse {
     top: 68px;
   }
   .navbar-brand > img {
