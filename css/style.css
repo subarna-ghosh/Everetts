@@ -117,7 +117,6 @@ a {
 
 /* team section */
 .team-section {
-  min-height: 737px;
   padding-block: 100px;
 }
 
@@ -161,9 +160,8 @@ a {
 
 /* loan section */
 .loan-section {
-  min-height: 840px;
   background-color: #f3f3f3;
-  padding-top: 100px;
+  padding-block: 100px;
 }
 .third-top {
   text-align: center;
@@ -194,6 +192,7 @@ a {
   background-color: white;
   border-radius: 20px;
   padding: 15px 15px;
+  margin-bottom: 20px;
 }
 .third-first > img {
   width: 100%;
@@ -210,7 +209,16 @@ a {
   background: transparent;
   border: transparent;
 }
-
+.loan-btn {
+  text-align: center;
+}
+.loan-btn > a {
+  padding: 18.5px 36px;
+  border-radius: 7px;
+  background-color: #001f51;
+  font-size: 18px;
+  color: white;
+}
 /* footer section */
 .footer-section {
   min-height: 264px;
@@ -301,6 +309,10 @@ a {
   .team-left {
     margin-bottom: 31px;
   }
+  .loan-btn > a {
+    padding: 11.5px 30px;
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 576px) {
   .navbar-collapse {
@@ -348,7 +360,6 @@ a {
     font-size: 12px;
   }
   .team-section {
-    min-height: 659px;
     padding-block: 64px;
   }
   .third-first > p {
